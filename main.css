@@ -1,26 +1,39 @@
-.main-body{
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("scooter.jpg");
+.main-body {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("scooter.jpg");
     /* background-image:    url(images/background.svg); */
-    background-size: 1920px 1280px;                      /* <------ */
-    background-repeat:   no-repeat;
+    background-size: 1920px 1280px;
+    /* <------ */
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
-.container{
-    
+.container {
+    text-align: center;
     height: 100%;
     width: 100%;
 }
 
 .heading {
     font-family: 'Lobster', cursive;
-    color:black;
+    color: black;
     text-align: center;
     font-size: 5rem;
 }
-.my-des{
+
+.my-des {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
     color: #142850;
     text-align: center;
 }
+/* button{
+    color: #000839;
+    border-style:solid;
+    border-color: #005082 ;
+    border-width: 1rem ;
+    margin: 5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20%;
+    background-color: #00a8cc;
+} */
