@@ -1,7 +1,8 @@
 .main-body {
+    display: flex;
     background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("scooter.jpg");
     /* background-image:    url(images/background.svg); */
-    background-size: 1920px 1280px;
+    background-size: 120rem 80rem;
     /* <------ */
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,6 +15,7 @@
 }
 
 .heading {
+    margin-top: 0rem;
     font-family: 'Lobster', cursive;
     color: black;
     text-align: center;
@@ -37,3 +39,8 @@
     border-radius: 20%;
     background-color: #00a8cc;
 } */
+.pic{
+    font-size: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
