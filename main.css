@@ -1,12 +1,37 @@
-.main-body {
-    display: flex;
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("scooter.jpg");
+/* .main-body {
+    
+    /* display: flex;
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("scooter.jpg"); */
     /* background-image:    url(images/background.svg); */
-    background-size: 120rem 80rem;
-    /* <------ */
+    /* background-size: 120rem 80rem; 
     background-repeat: no-repeat;
     background-position: center center;
-}
+     */
+body {
+    /* Location of the image */
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(background-photo.jpg);
+    
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+  }
+  
 
 .container {
     text-align: center;
@@ -19,27 +44,17 @@
     font-family: 'Lobster', cursive;
     color: black;
     text-align: center;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 .my-des {
     font-family: 'Lobster', cursive;
-    font-size: 3rem;
+    font-size: 3vw;
     color: #142850;
     text-align: center;
 }
-/* button{
-    color: #000839;
-    border-style:solid;
-    border-color: #005082 ;
-    border-width: 1rem ;
-    margin: 5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 20%;
-    background-color: #00a8cc;
-} */
-.pic{
+
+.pic {
     font-size: 8rem;
     margin-top: 2rem;
     margin-bottom: 0rem;
