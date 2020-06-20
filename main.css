@@ -7,22 +7,31 @@
     background-repeat: no-repeat;
     background-position: center center;
      */
-body {
+
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+.main-container {
+    position: relative;
+    top: -32px;
     /* Location of the image */
-    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(background-photo.jpg);
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) ,url(background-photo.jpg);
     
     /* Image is centered vertically and horizontally at all times */
-    background-position: center center;
+    /* background-position: center center; */
     
     /* Image doesn't repeat */
     background-repeat: no-repeat;
     
     /* Makes the image fixed in the viewport so that it doesn't move when 
        the content height is greater than the image height */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     
     /* This is what makes the background image rescale based on its container's size */
     background-size: cover;
+    height: 95vh;
     
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color:#464646;
@@ -35,11 +44,12 @@ body {
 
 .container {
     text-align: center;
-    height: 100%;
-    width: 100%;
 }
 
 .heading {
+
+    background-color: #b2b2b2;
+    background-color: rgba(0, 0, 0, .3); 
     margin-top: 0rem;
     font-family: 'Lobster', cursive;
     color: black;
@@ -48,6 +58,7 @@ body {
 }
 
 .my-des {
+
     font-family: 'Lobster', cursive;
     font-size: 3vw;
     color: #142850;
