@@ -2,8 +2,8 @@
     
     /* display: flex;
     background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("scooter.jpg"); */
-    /* background-image:    url(images/background.svg); */
-    /* background-size: 120rem 80rem; 
+/* background-image:    url(images/background.svg); */
+/* background-size: 120rem 80rem; 
     background-repeat: no-repeat;
     background-position: center center;
      */
@@ -11,36 +11,36 @@
 * {
     margin: 0;
     padding: 0;
-}  
+}
 
 .main-container {
     position: relative;
     top: -32px;
     /* Location of the image */
-    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) ,url(background-photo.jpg);
-    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(background-photo.jpg);
+
     /* Image is centered vertically and horizontally at all times */
     /* background-position: center center; */
-    
+
     /* Image doesn't repeat */
     background-repeat: no-repeat;
-    
+
     /* Makes the image fixed in the viewport so that it doesn't move when 
        the content height is greater than the image height */
     /* background-attachment: fixed; */
-    
+
     /* This is what makes the background image rescale based on its container's size */
     background-size: cover;
     height: 95vh;
-    
+
     /* Pick a solid background color that will be displayed while the background image is loading */
-    background-color:#464646;
-    
+    background-color: #464646;
+
     /* SHORTHAND CSS NOTATION
      * background: url(background-photo.jpg) center center cover no-repeat fixed;
      */
-  }
-  
+}
+
 
 .container {
     text-align: center;
@@ -49,7 +49,7 @@
 .heading {
 
     background-color: #b2b2b2;
-    background-color: rgba(0, 0, 0, .3); 
+    background-color: rgba(0, 0, 0, .3);
     margin-top: 0rem;
     font-family: 'Lobster', cursive;
     color: black;
@@ -69,4 +69,43 @@
     font-size: 8rem;
     margin-top: 2rem;
     margin-bottom: 0rem;
+}
+
+.nav-items {
+    text-align: center;
+    background-color: #fbd46d;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #4f8a8b;
+}
+a:hover{
+    text-decoration: none;
+}
+.cat-pic{
+    transform: rotate(25deg);
+    border-radius: 10%;
+    border: solid ;
+    margin-top: 3rem;
+    height: 80%;
+    width: 60%;
+}
+.author-name{
+    text-decoration: underline;
+    margin-right: 4%;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.about-my-cat{
+    font-size: 1.9rem;
+    font-family: 'Pacifico', cursive;
+    margin-top: 15%;
+    margin-right: 33%;
+    margin-left: 26%;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 2;
+}
+.more-cat-link{
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: 900;
 }
